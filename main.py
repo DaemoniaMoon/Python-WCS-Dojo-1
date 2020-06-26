@@ -1,11 +1,11 @@
+#def des imports
+import random
 
-from   import
-
-<! -- def des fonctions -->
+# def des fonctions 
 
 
 
-<! -- def de variable -->
+# def de variable 
 Energy = int(input("De combien d'énergie dispose le train ? :  "))
 trainDepart = 0
 Container = []
@@ -25,7 +25,7 @@ blocEnergyMax = int(input("Combien d'énergie il y a au max ? : "))
 for i in range(len(blocEnergy)) :
     serviceStation.append(random.randint(1,10))
 
-<! -- def du main -->
+# def du main 
 
 # condition de fin de jeu
 
@@ -34,3 +34,4 @@ while Energy > 0 :
     if maxEnergy = 0 :
     print("C'est perdu le train est en panne")
     break 
+print
